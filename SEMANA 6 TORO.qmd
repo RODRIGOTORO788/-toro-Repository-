@@ -1,0 +1,29 @@
+---
+title: "SEMANA 6"
+author: "TORO"
+format: html
+editor: visual
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+s12_hipert_covid <- read_csv("C:/Users/user/Downloads/s12_hipert_covid.csv")
+View(s12_hipert_covid)
+
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
